@@ -10,7 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f1f1f1;
+    background: url('./img/bg.png');
+    background-repeat: round;
+    background-size: cover;
 }
 
 .container {
@@ -19,6 +21,7 @@ body {
     background: #08090e;
     border-radius: 50%;
     border: 5px solid #6a6d74;
+    box-shadow: 0px 9px 49px -11px black;
     display: flex;
     justify-self: center;
     align-items: center;
